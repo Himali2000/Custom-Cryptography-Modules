@@ -1,5 +1,5 @@
 # The 'plaintext' is the 'p' in cipher=ENC(p + k)%26 encryption function
-# The 'key' or 'k' refers to the possible and preferable shift and its range is 1-26
+# The 'key' or 'k' refers to the possible and preferable shift and its range is 1-26 (integer only)
 # Typical key for Caesar cryptography is 3
 
 def encryption(plaintext, key):
